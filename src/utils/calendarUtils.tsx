@@ -229,8 +229,7 @@ const templateDescriptions = {
     "1. Review income and expenses\n" +
     "2. Check monthly budget adherence\n" +
     "3. Update financial goals\n\n" +
-    "Access your template at: https://www.profitcloud.online/file-share/7734249c-5980-4a87-bd8f-5999a9492306\n\n" +
-    "Book free consultation: https://calendly.com/profitcloud/30min",
+    "Use this time to review your financial progress and make adjustments as needed.",
   
   comprehensive: "Comprehensive Financial Review\n\n" +
     "1. Income and expense analysis\n" +
@@ -238,8 +237,7 @@ const templateDescriptions = {
     "3. Retirement savings progress\n" +
     "4. Debt reduction plan\n" +
     "5. Emergency fund status\n\n" +
-    "Access your template at: https://www.profitcloud.online/file-share/7734249c-5980-4a87-bd8f-5999a9492306\n\n" +
-    "Book free consultation: https://calendly.com/profitcloud/30min",
+    "Take a comprehensive look at all aspects of your financial health.",
   
   business: "Business Financial Review\n\n" +
     "1. Monthly profit/loss analysis\n" +
@@ -247,8 +245,7 @@ const templateDescriptions = {
     "3. Accounts receivable/payable\n" +
     "4. Tax planning\n" +
     "5. Business expense review\n\n" +
-    "Access your template at: https://www.profitcloud.online/file-share/7734249c-5980-4a87-bd8f-5999a9492306\n\n" +
-    "Book free consultation: https://calendly.com/profitcloud/30min"
+    "Review your business financial performance and plan for the upcoming month."
 };
 
 export function getFinancialCheckInReminder(

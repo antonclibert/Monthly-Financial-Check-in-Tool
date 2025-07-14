@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
 
-## Project info
+# Monthly Financial Check-in Tool
 
-**URL**: https://lovable.dev/projects/1a59bcd5-f487-40b5-baae-7cfe24726790
+An open-source web application that helps you set up monthly financial check-in reminders based on your birthday date. Keep your finances on track with recurring calendar reminders.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- 🎂 **Birthday-Based Reminders**: Schedule your financial check-in on the same day as your birthday each month
+- 📅 **Multiple Calendar Support**: Add to Google Calendar, Apple Calendar, Outlook, Yahoo Calendar, and more
+- 📝 **Financial Templates**: Access ready-to-use financial check-in templates for each review
+- 🌐 **Cross-Platform**: Works on all modern web browsers
+- 🆓 **Completely Free**: Open-source tool with no hidden costs
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1a59bcd5-f487-40b5-baae-7cfe24726790) and start prompting.
+### Online Version
+Visit the deployed application at your hosted URL to start setting up your monthly financial check-ins immediately.
 
-Changes made via Lovable will be committed automatically to this repo.
+### Local Development
 
-**Use your preferred IDE**
+#### Prerequisites
+- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+1. Clone the repository:
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
+cd monthly-financial-checkin
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```sh
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## How It Works
 
-**Use GitHub Codespaces**
+1. **Select Your Birthday**: Choose your birth date using the date picker
+2. **Confirm Your Check-in Day**: The tool will use the day of your birthday for monthly reminders
+3. **Add to Calendar**: Select your preferred calendar platform and add the recurring monthly event
+4. **Stay On Track**: Receive monthly reminders to review your finances on your special day
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Technology Stack
 
-## What technologies are used for this project?
+- **Frontend**: React with TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Build Tool**: Vite
+- **Date Handling**: date-fns with timezone support
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+We welcome contributions! Please feel free to:
 
-## How can I deploy this project?
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Simply open [Lovable](https://lovable.dev/projects/1a59bcd5-f487-40b5-baae-7cfe24726790) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
+This project is open source and available under the [MIT License](LICENSE).
 
-Yes, you can!
+## Support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+If you find this tool helpful, please consider:
+- ⭐ Starring the repository
+- 🐛 Reporting bugs or requesting features via Issues
+- 🤝 Contributing to the codebase
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+**Note**: This tool helps you organize your financial check-ins but does not provide financial advice. Please consult with qualified financial professionals for personalized financial guidance.
