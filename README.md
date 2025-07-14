@@ -14,7 +14,7 @@ An open-source web application that helps you set up monthly financial check-in 
 ## Getting Started
 
 ### Online Version
-Visit the deployed application at your hosted URL to start setting up your monthly financial check-ins immediately.
+Visit the deployed application to start setting up your monthly financial check-ins immediately.
 
 ### Local Development
 
@@ -55,6 +55,12 @@ npm run dev
 - **UI Components**: shadcn/ui
 - **Build Tool**: Vite
 - **Date Handling**: date-fns with timezone support
+
+## Author
+
+**Anton Ranasinghe**
+- GitHub: [https://github.com/antonclibert](https://github.com/antonclibert)
+- Portfolio: [https://anton-ranasinghe.vercel.app/](https://anton-ranasinghe.vercel.app/)
 
 ## Contributing
 

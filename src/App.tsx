@@ -3,8 +3,10 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Index from "./pages/Index";
 import SetupReminder from "./pages/SetupReminder";
+import About from "./pages/About";
 import HelpPage from "./pages/HelpPage";
 import NotFound from "./pages/NotFound";
 
@@ -17,8 +19,9 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navigate to="/setup-reminder" replace />} />
+          <Route path="/" element={<Index />} />
           <Route path="/setup-reminder" element={<SetupReminder />} />
+          <Route path="/about" element={<About />} />
           <Route path="/help" element={<HelpPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
