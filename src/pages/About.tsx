@@ -84,10 +84,10 @@ const About = () => {
                   Feel free to use, modify, and contribute to this project.
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="https://github.com/antonclibert" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/antonclibert/Monthly-Financial-Check-in-Tool" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm">
                       <Github className="mr-2 h-4 w-4" />
-                      GitHub
+                      Project Repository
                     </Button>
                   </a>
                   <a href="https://anton-ranasinghe.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -108,7 +108,7 @@ const About = () => {
               new features, or documentation improvements.
             </p>
             <div className="text-center">
-              <a href="https://github.com/antonclibert" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/antonclibert/Monthly-Financial-Check-in-Tool" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                   <Github className="mr-2 h-4 w-4" />
                   Contribute on GitHub

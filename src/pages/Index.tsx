@@ -35,7 +35,7 @@ const Index = () => {
               </Button>
             </Link>
             
-            <a href="https://github.com/antonclibert" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/antonclibert/Monthly-Financial-Check-in-Tool" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                 <Github className="mr-2 h-5 w-5" />
                 View on GitHub
@@ -102,10 +102,10 @@ const Index = () => {
               with simple, recurring reminders. Feel free to contribute or fork the project!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://github.com/antonclibert" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/antonclibert/Monthly-Financial-Check-in-Tool" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="flex items-center">
                   <Github className="mr-2 h-4 w-4" />
-                  GitHub Profile
+                  View Project
                 </Button>
               </a>
               <a href="https://anton-ranasinghe.vercel.app/" target="_blank" rel="noopener noreferrer">
